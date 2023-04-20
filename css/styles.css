@@ -41,9 +41,13 @@ header {
   font-size: 12px;
   line-height: 12px;
   letter-spacing: -0.03em;
-
   color: var(--text-white);
 }
+.logo-pic {
+  width: 14px;
+  height: 14px;
+}
+
 .btn-open {
   margin-left: auto;
   border: none;
@@ -121,6 +125,10 @@ header {
   }
   .btn-open {
     display: none;
+  }
+  .logo-pic {
+    width: 19px;
+    height: 19px;
   }
   .main-nav-menu {
     margin-left: 80px;
