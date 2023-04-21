@@ -400,6 +400,15 @@ img {
   /* padding-left: 12px;
   padding-right: 12px; */
 }
+@media screen and (max-width: 360px) {
+  .big-watch {
+    max-width: 185px;
+  }
+  .min-pic {
+    width: 70px;
+    height: 70px;
+  }
+}
 .big-watch {
   background-color: #141414;
   display: block;
